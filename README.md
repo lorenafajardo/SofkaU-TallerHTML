@@ -1,2 +1,2 @@
 # SofkaU-TallerHTML
-Desarrollo de Taller 6, usando HTML
+Actividad en HTML5
