@@ -1,0 +1,73 @@
+
+
+.boton:hover{
+    background-color: chartreuse;
+    
+}
+
+.boton:active{
+    background-color:darkturquoise;
+}
+
+.boton{
+    margin: 30px; 
+    font-family:'Arial Narrow';
+}
+
+.btnDescarga:hover {
+    background-color:lightblue;
+}
+
+.btnDescarga{
+    margin: 30px; 
+    font-family:'Arial Narrow';
+}
+
+
+nav{
+    background-color:darkgrey; 
+    font-weight: bold; 
+    padding: 10px;
+}
+
+footer{
+    background-color:cadetblue; 
+    font-weight: bold; 
+    padding: 20px; 
+    margin-top: 20px;
+}
+
+body{
+        text-align-last: center;
+        width:900px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: lightgrey;
+}
+
+.Foto {
+    border: 10px solid azure;
+    box-shadow: 0px 0px 20px darkseagreen, 0px 0px 25px cornflowerblue;
+}
+
+header{
+    background-color: cadetblue;
+    padding: 5px; 
+    font-family: Times;
+}
+
+section{
+    font-family:'Arial Narrow'; 
+    
+}
+
+.descripcion{
+    line-height: normal;
+    font-weight: lighter;
+}
+
+.subtitulo{
+    font-family: Times; 
+    background-color: lightslategray;
+}
+
