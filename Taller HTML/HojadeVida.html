@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoja de vida</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/javascript.js"></script>
 </head>
-<body>
+<body id="bodyStyle" onload="main()">
     <header>
         <p><h2>Hoja de Vida: Lorena Fajardo Diaz</h2></p>  
     </header> 
@@ -41,11 +42,18 @@
         <a class="boton" href="experiencia.html"> Experiencia laboral</a>
         <a class="boton" href="referenciaLaboral.html" > Referencias laborales</a>
         <a class="boton" href="referenciaPersonal.html" > Referencias personales</a>
+        <br>
     </nav>
 
-    <footer>
-        <a class="btnDescarga" href="Hoja de vida.pdf"> Descargar Hoja de Vida</a>
-    </footer>
+    <a class="btnDescarga" href="Hoja de vida.pdf"> Descargar Hoja de Vida</a>
+
+
+    <footer style="text-align-last: right">
+    <h7>Cambiar estilo</h7>
+    <button type="button" onclick="cambiarColor1('body')" style="background-color:darkcyan"> . </button>
+    <button type="button" onclick="cambiarColor2('body')" style="background-color: lightslategray">.</button>
+    <button type="button" onclick="cambiarColor3('body')" style="background-color: rgb(212, 198, 171)">.</button>
+</footer>
 
 </body>
 </html>
